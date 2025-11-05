@@ -48,57 +48,59 @@ Trong n8n, bạn có thể dùng node **HTTP Request** hoặc **Execute Python**
 
 ```json
 {
- 'task_type': 'sp_txt2video_02',
-    'input': {
-        'prompt': 'Lệnh thắng không chứng minh bạn giỏi.\nTôi từng hãnh diện khi có vài lệnh thắng liên tiếp, nghĩ rằng mình đã giỏi hơn người khác, nhưng rồi chỉ cần một lệnh thua sai lúc, tất cả lợi nhuận quay về con số không, thậm chí âm, điều đó dạy tôi rằng, một lệnh thắng chỉ là kết quả tức thời, bạn cần hàng trăm lệnh đúng nguyên tắc mới chứng minh được thực lực, đừng vội tự hào vì vài kết quả ngắn hạn, sự ổn định mới là điều khó đạt và đáng theo đuổi.',
-        'background_music': 'None',
-        'voice_name': 'Nam_PhanTich_01',
-        'voice_locale': 'vi-VN',
-        'size': '768x1344',
-        'is_subtitle': True,
-        'style': '',
-        'font': {
-            'name': 'Anton',
-            'size': 48,
-        },
-        'videos': [
-            'https://upload.shortspin.ai/2025/11/05/a4a59473-c0ac-472c-b59a-20bbb068ba3a.mp4',
-        ],
-        'images': [],
-        'media': [],
-        'text_color': [
-            '#282828',
-            '#ffffff',
-        ],
-        'voice_speed': 1,
-        'subtitle_theme': 'default',
-        'subtitle_position': [
-            'center',
-            'middle',
-        ],
-        'uppercase_subs': True,
-        'show_end_punctuation': True,
-        'max_words_per_line': 4,
-        'subtitle_url': '',
-        'voice_url': '',
-        'background_volume': -20,
-        'anim_effect': 'random',
-        'hook_name': '',
-        'caption': {
-            'main': {
-                'color': '#00FFFF',
-                'font': {
-                    'name': 'Anton',
-                },
-            },
-            'sub': {
-                'color': '#FFFFFF',
-                'font': {
-                    'name': 'Anton',
-                },
-            },
-        },
+ {
+  "task_type": "sp_txt2video_02",
+  "input": {
+    "prompt": "Lệnh thắng không chứng minh bạn giỏi.\nTôi từng hãnh diện khi có vài lệnh thắng liên tiếp, nghĩ rằng mình đã giỏi hơn người khác, nhưng rồi chỉ cần một lệnh thua sai lúc, tất cả lợi nhuận quay về con số không, thậm chí âm, điều đó dạy tôi rằng, một lệnh thắng chỉ là kết quả tức thời, bạn cần hàng trăm lệnh đúng nguyên tắc mới chứng minh được thực lực, đừng vội tự hào vì vài kết quả ngắn hạn, sự ổn định mới là điều khó đạt và đáng theo đuổi.",
+    "background_music": "None",
+    "voice_name": "Nam_PhanTich_01",
+    "voice_locale": "vi-VN",
+    "size": "768x1344",
+    "is_subtitle": true,
+    "style": "",
+    "font": {
+      "name": "Anton",
+      "size": 48
     },
+    "videos": [
+      "https://upload.shortspin.ai/2025/11/05/a4a59473-c0ac-472c-b59a-20bbb068ba3a.mp4"
+    ],
+    "images": [],
+    "media": [],
+    "text_color": [
+      "#282828",
+      "#ffffff"
+    ],
+    "voice_speed": 1,
+    "subtitle_theme": "default",
+    "subtitle_position": [
+      "center",
+      "middle"
+    ],
+    "uppercase_subs": true,
+    "show_end_punctuation": true,
+    "max_words_per_line": 4,
+    "subtitle_url": "",
+    "voice_url": "",
+    "background_volume": -20,
+    "anim_effect": "random",
+    "hook_name": "",
+    "caption": {
+      "main": {
+        "color": "#00FFFF",
+        "font": {
+          "name": "Anton"
+        }
+      },
+      "sub": {
+        "color": "#FFFFFF",
+        "font": {
+          "name": "Anton"
+        }
+      }
+    }
+  }
 }
+
 
 
